@@ -11,7 +11,7 @@ export default function Navbar() {
                     animation: 'slideDown 0.6s ease 0.6s forwards',
                 }}
             >
-                <Link href="/"><img src="/logo.png" alt="" className="w-25 rounded bg-white p-2 transition-transform duration-400 hover:scale-110" /></Link>
+                <Link href="/"><img src="/logo.png" alt="" className="w-10 rounded bg-white p-2 transition-transform duration-400 hover:scale-110" /></Link>
                 <ul className="flex space-x-4">
                     <li>
                         <Link href="/" className="text-white inline-block transition-transform duration-400 hover:scale-110">
@@ -19,8 +19,8 @@ export default function Navbar() {
                         </Link>
                     </li>
                     <li>
-                        <Link href="/about" className="text-white inline-block transition-transform duration-400 hover:scale-110">
-                            About
+                        <Link href="/characters" className="text-white inline-block transition-transform duration-400 hover:scale-110">
+                            Characters
                         </Link>
                     </li>
                     <li>
